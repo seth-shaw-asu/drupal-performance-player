@@ -1,0 +1,9 @@
+uuid: a7f85bb5-a3c0-4a85-b070-24950f5e9f0b
+langcode: en
+status: true
+dependencies: {  }
+name: 'Corporate Body'
+vid: corporate_body
+description: null
+weight: 0
+new_revision: false

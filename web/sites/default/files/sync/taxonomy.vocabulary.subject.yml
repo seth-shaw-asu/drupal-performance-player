@@ -1,0 +1,9 @@
+uuid: c4bc8aac-e732-49de-807d-0ce1452f52b0
+langcode: en
+status: true
+dependencies: {  }
+name: Subject
+vid: subject
+description: null
+weight: 0
+new_revision: false

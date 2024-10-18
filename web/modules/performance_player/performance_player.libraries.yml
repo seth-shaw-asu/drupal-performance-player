@@ -1,0 +1,8 @@
+player:
+  js:
+    js/player.js: {}
+  css:
+    component:
+      css/player.css: {}
+  dependencies:
+    - core/drupalSettings

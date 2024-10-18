@@ -1,0 +1,14 @@
+name: 'Controlled Access Terms'
+type: module
+description: 'Provides topic, geographic, person, family, and corporate body entites as well as an authorities link field.'
+core_version_requirement: ^10.2 || ^11
+package: 'Controlled Access Terms'
+
+dependencies:
+  - geolocation:geolocation
+  - token:token
+
+# Information added by Drupal.org packaging script on 2024-10-02
+version: '2.4.4'
+project: 'controlled_access_terms'
+datestamp: 1727894790

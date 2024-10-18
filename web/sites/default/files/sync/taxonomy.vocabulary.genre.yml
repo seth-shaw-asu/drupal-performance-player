@@ -1,0 +1,9 @@
+uuid: fcbacfea-6001-4b9a-98e1-9a0208a7eae4
+langcode: en
+status: true
+dependencies: {  }
+name: Genre
+vid: genre
+description: null
+weight: 0
+new_revision: false
