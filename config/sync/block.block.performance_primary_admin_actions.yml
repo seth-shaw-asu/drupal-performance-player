@@ -1,0 +1,20 @@
+uuid: 375c49ac-3410-480f-ae16-cf21dc38236f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - performance
+_core:
+  default_config_hash: mBXC5GP13UJv_aG23dgIgFjUKv5J6svA5x4kJMOHYnI
+id: performance_primary_admin_actions
+theme: performance
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

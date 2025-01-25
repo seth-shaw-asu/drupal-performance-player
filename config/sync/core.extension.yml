@@ -58,4 +58,6 @@ module:
 theme:
   olivero: 0
   claro: 0
+  bootstrap_barrio: 0
+  performance: 0
 profile: standard

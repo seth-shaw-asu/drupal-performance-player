@@ -1,0 +1,22 @@
+uuid: 94e9aaed-d1f3-4fed-ae5a-1ba84fc5594d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - performance
+_core:
+  default_config_hash: VMpUGPmP4sbPq29a12W35rXbcyqD2WSK_brFlAJxVnk
+id: performance_primary_local_tasks
+theme: performance
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

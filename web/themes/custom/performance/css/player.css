@@ -1,0 +1,35 @@
+#player_tracks audio {
+    display: none;
+}
+
+#player_tracks .list-group-item {
+    cursor: pointer;
+}
+
+#player_tracks .list-group-item::before {
+    font-weight: bolder;
+    font-size: 2em;
+    width: 1.75em;
+}
+
+#player_tracks .list-group-item:hover:before,
+#player_tracks .list-group-item:focus:before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    content: "\f144";
+}
+
+#player_tracks .playing {
+    background-color: lightgrey;
+}
+
+#player_bar {
+    /* Hide to start. */
+    display: none;
+    background-color: lightgrey;
+    padding: 1em;
+}
+
+#player_bar audio {
+    width: 100%;
+}

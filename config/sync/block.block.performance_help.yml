@@ -1,0 +1,22 @@
+uuid: 9ccccb47-8543-4e0f-a684-e1e851e92773
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - performance
+_core:
+  default_config_hash: dtYKKqlzQP4DywtgMFneKZPQwShLCjWEzP61gPg4xvc
+id: performance_help
+theme: performance
+region: highlighted
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Performance Subtheme.
+
+performance.settings:
+  type: bootstrap_barrio.settings
+  label: 'Performance settings'

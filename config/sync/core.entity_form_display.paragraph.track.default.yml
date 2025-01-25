@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.paragraph.track.field_audio
     - field.field.paragraph.track.field_composer
+    - field.field.paragraph.track.field_duration
     - field.field.paragraph.track.field_title
     - paragraphs.paragraphs_type.track
   module:
@@ -35,6 +36,14 @@ content:
     settings:
       match_operator: CONTAINS
       match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_duration:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }

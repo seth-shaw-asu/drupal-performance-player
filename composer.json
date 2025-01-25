@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "drupal/bootstrap_barrio": "^5.5",
         "drupal/coder": "^8.3",
         "drupal/controlled_access_terms": "^2.4",
         "drupal/core-composer-scaffold": "^10.3",
@@ -26,6 +27,7 @@
         "drupal/paragraphs": "^1.18",
         "drupal/pdf": "^1.2",
         "drush/drush": "^13.3",
+        "kiwilan/php-audio": "^4.0",
         "squizlabs/php_codesniffer": "^3.10"
     },
     "conflict": {

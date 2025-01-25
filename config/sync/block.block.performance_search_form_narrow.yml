@@ -1,0 +1,23 @@
+uuid: fb8f7641-6ca7-4486-861a-2260d976303e
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - performance
+_core:
+  default_config_hash: GBkbDj-5n1EtKPcfldEVsYH2eqfKObo4EEt2bnBHQsQ
+id: performance_search_form_narrow
+theme: performance
+region: sidebar_first
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }
