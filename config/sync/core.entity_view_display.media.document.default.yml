@@ -20,7 +20,7 @@ content:
     settings:
       keep_pdfjs: '1'
       width: 100%
-      height: ''
+      height: 600px
       page: ''
       zoom: ''
       custom_zoom: ''
