@@ -14,13 +14,20 @@
 
 #player_tracks .list-group-item:hover:before,
 #player_tracks .list-group-item:focus:before {
-    font-family: "Font Awesome 5 Pro";
+    width: 1.75em;
+    font: var(--fa-font-solid);
+    font-size: 2em;
     font-weight: 900;
-    content: "\f144";
+    content: '\f144';
+    padding-top: .33em;
 }
 
 #player_tracks .playing {
     background-color: lightgrey;
+}
+
+#player_tracks .field--type-entity-reference {
+    margin: 0;
 }
 
 #player_bar {
